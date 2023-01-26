@@ -17,8 +17,4 @@ The About Us page can be navigated from the drawer and the home page can be acce
 ### Upcoming Tasks:
 Completing rest of the pages (Team, Contact Us, Campus Partner)
 Completing the backend with nodejs and firebase.  
-### Contributing
-If you're interested in helping with this project, please reach out to us! We'd love to have you on board.
 
-### License
-This project is licensed under the [insert license here] license.
