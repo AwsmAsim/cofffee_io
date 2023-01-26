@@ -72,24 +72,17 @@ class AboutPage extends StatelessWidget {
 
           SizedBox(height: 20.0,),
 
-          Container(
-            height: S_HEIGHT/2.5,
-            width: double.infinity,
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage('assets/images/landing_image_about_page.png'),
-                fit: BoxFit.fitHeight,
-              )
-            ),
-          ),
+          landingImage(S_HEIGHT),
 
           SizedBox(height: 20.0,),
 
           visionMission('assets/images/our_vision.svg', 'Our Vision', TextConstants.vision, ColorConstants.kPrimaryColor, S_HEIGHT),
           visionMission('assets/images/our_mission.svg', 'Our Mission', TextConstants.mission, ColorConstants.kForthColor, S_HEIGHT),
-          SizedBox(
+
+          const SizedBox(
             height: 20.0,
           ),
+
           Padding(
             padding: const EdgeInsets.all(15.0),
             child: Container(
@@ -131,6 +124,19 @@ class AboutPage extends StatelessWidget {
 
 
         ],
+      ),
+    );
+  }
+
+  Widget landingImage(double S_HEIGHT){
+    return Container(
+      height: S_HEIGHT/2.5,
+      width: double.infinity,
+      decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/images/landing_image_about_page.png'),
+            fit: BoxFit.fitHeight,
+          )
       ),
     );
   }

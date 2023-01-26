@@ -4,8 +4,9 @@ import 'package:coffeee/view/contact_us.dart';
 import 'package:coffeee/view/home_page.dart';
 import 'package:coffeee/view/job_seeker.dart';
 import 'package:coffeee/view/recruiter.dart';
-import 'package:coffeee/view/team_page.dart';
 import 'package:flutter/material.dart';
+
+import 'view/team.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
         '/contact-us': (context) => ContactUs(),
         JobSeeker.id : (context) => JobSeeker(),
         Recruiter.id : (context) => Recruiter(),
-        AboutPage.id: (context) => AboutPage()
+        AboutPage.id: (context) => AboutPage(),
+        TeamPage.id: (context) => TeamPage()
       },
     );
   }

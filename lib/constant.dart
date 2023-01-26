@@ -28,4 +28,6 @@ class TextConstants{
   We couldn’t find something like that when we needed it - so we created it for you!
 
   Coffeee is not your typical job portal - it’s a community for you to grow, learn, collaborate, and get recruited by your dream company. Join in and unlock exciting opportunities - take assessment tests to get shortlisted, get advice from experts, or simply chill with fellow coders. It’s got everything you need to stay at the top of your game.''';
+
+  static String teamBelieve = 'We are a group of seasoned professionals from across a broad range of industries - united by our love for all things tech.';
 }

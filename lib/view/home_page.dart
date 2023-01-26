@@ -3,6 +3,7 @@ import 'package:coffeee/constant.dart';
 import 'package:coffeee/view/about_page.dart';
 import 'package:coffeee/view/job_seeker.dart';
 import 'package:coffeee/view/recruiter.dart';
+import 'package:coffeee/view/team.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -178,7 +179,7 @@ class HomePage extends StatelessWidget {
             color: Colors.grey,
             height: 0.5,
           ),
-          drawerLabel('Team', (){}),
+          drawerLabel('Team', ()=>Navigator.of(context).pushNamed(TeamPage.id)),
           Container(
             color: Colors.grey,
             height: 0.5,
