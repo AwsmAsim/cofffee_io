@@ -1,7 +1,7 @@
 # Coffeee Flutter Android Application
 
 <p align = "center">
-<img src="assets\images\resized_sample50.gif">
+<img src="assets\images\coffeee_app_sample.gif">
 </p>
 
 This is a Flutter Android Application that aims to connect job seekers and recruiters in an efficient and user-friendly way.
