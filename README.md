@@ -1,17 +1,19 @@
-# coffeee
+# Coffeee Flutter Android Application
+This is a Flutter Android Application that aims to connect job seekers and recruiters in an efficient and user-friendly way.
 
-A new Flutter project.
+The application currently has the following pages:
 
-## Getting Started
+- Home Page
+- About Us
+The Home Page has a navigation bar with Drawer to other Navigation to other pages. It also has the option to Register or login for a "Job Seeker" and for a "Recruiter". The end of the page is a sliding image, or a Carousal.
 
-This project is a starting point for a Flutter application.
+The About Us page can be navigated from the drawer and the home page can be accessed back by clicking the Icon. The about us page have the mission, vision and the story.
 
-A few resources to get you started if this is your first Flutter project:
+### Upcoming Tasks:
+Completing rest of the pages (Team, Contact Us, Campus Partner)
+Completing the backend with nodejs and firebase.  
+### Contributing
+If you're interested in helping with this project, please reach out to us! We'd love to have you on board.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# cofffee_io" 
+### License
+This project is licensed under the [insert license here] license.
